@@ -3,7 +3,7 @@ date_default_timezone_set('America/Sao_Paulo');
 	Abstract Class conexao{
 		public $servidor = 'localhost';
 		public $user = 'root';
-		public $pass = 'usbw';
+		public $pass = '';
 		public $banco = 'twetalk';
 		public $conn;
 		
